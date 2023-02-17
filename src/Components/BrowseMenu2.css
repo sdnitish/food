@@ -1,0 +1,42 @@
+.MenuCard{
+width: 16rem;
+display: flex;
+position: relative;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: .75rem;
+margin-top: 2.8rem;
+}
+.Price{
+    position: absolute;
+    z-index: 2;
+    top: 8px;
+    right: 8px;
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 12px;
+}
+.MenuCard img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 21px;
+}
+.MenuCard p,h2{
+    margin-top: .8rem;
+}
+.BroMenu2{
+    flex-direction: column;
+    padding-left: 16%;
+    padding-right: 16%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 900px){
+    .Price{
+        top: 25px;
+    }
+}

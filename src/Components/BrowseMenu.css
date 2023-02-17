@@ -1,0 +1,42 @@
+.subHead2{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+.menuCard{
+    width: 16rem;
+    padding: 2.5rem;
+    border: 3px solid rgb(187, 186, 186);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    transition:transform 500ms;
+}
+.menuCard:hover{
+    transform: scale(1.015);
+    cursor: pointer;
+}
+.Container2 .menuCard img{
+    height: 6.8rem;
+    margin-bottom: 1rem;
+}
+.menuCard h4{
+    color:#ff7729;
+    margin-top: 1rem;
+}
+.btn1{
+    margin-left: 2rem;
+}
+@media only screen and (max-width: 900px) {
+    .BtnBox{
+        flex-wrap: wrap;
+        padding-left: 12% !important;
+        padding-right: 12% !important;
+    }
+    .BrowseMenu{
+        margin-bottom: 0;
+    }
+}

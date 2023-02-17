@@ -1,0 +1,71 @@
+.Arrow{
+    width: 3.1rem;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7629;
+    border-radius: 50%;
+}
+.Arrow img{
+    width: auto;
+    height: 74%;
+}
+.Review{
+    width: 50%;
+    border: 3px solid rgb(178, 175, 175);
+    border-radius: 16px;
+    padding: 2rem;
+    margin:0 2rem 0 2rem ;
+}
+.Review p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 5px;
+}
+.Stars .Reviewer{
+    border-radius: 50%;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+.Stars{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Stars p{
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    margin: 0;
+}
+.Stars img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: .4rem;
+}
+.testImo{
+    padding: 10%;
+    padding-right: 10%;
+    margin-top: 0;
+}
+.btn1{
+    margin-left: 2rem;
+}
+@media only screen and (max-width: 900px){
+    .Arrow{
+        display: none;
+    }
+    .Review{
+        width: 100%;
+    }
+    .container2{
+        padding: 0 2rem 0 0;
+    }
+    .btn1{
+        margin-left: .8rem;
+    }
+    .BtnBox{
+        padding: 0;
+    }
+}

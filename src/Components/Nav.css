@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.NavBar{
+    width: 100%;
+    margin-top: .6rem;
+    padding: .6rem 8% .6rem 8%;
+    height: 3.5rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+  }
+  .Both{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  .Logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  .Logo img{
+    height: 85%;
+    cursor: pointer;
+  }
+  .MenuItem{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    width: fit-content;
+    height: 100%;
+    list-style: none;
+  }
+  .MenuItem li{
+    cursor: pointer;
+    margin-left: .5rem;
+    display: flex;
+    font-weight: 500;
+    color: gray;
+    font-size: large;
+    align-items: center;
+    height: 100%;
+    margin-right: .5rem;
+    text-decoration: none !important;
+  }
+  .MenuIconBox{
+    padding: 4px 6px 1px 6px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+    border-radius: 6px;
+    display: none;
+    transition: all 400ms;
+  }
+  .MenuIconBox:hover{
+    background-color: rgb(214, 211, 211);
+    box-shadow: rgb(36, 175, 188) 0px 0px 5px;
+  }
+  #id{
+    color: #ff7729;
+    font-size: 31px;
+    font-weight: bold;
+  }
+@media only screen and (max-width: 900px){
+.MenuItem{
+  position: absolute;
+  right: 0;
+  top: 48px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff7729;
+  padding-top: 1rem;
+  z-index: 5;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.MenuShow{
+  display: none;
+}
+.MenuItem li{
+  height: fit-content;
+  color: white;
+  /* margin: .6rem; */
+}
+.MenuIconBox{
+  display: block;
+}
+}
+@media only screen and (max-width: 695px){
+  .NavBtns{
+    display: none;
+  }
+}

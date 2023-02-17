@@ -1,0 +1,31 @@
+.subHead{
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+}
+
+.Container2 img{
+    height: 1.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition:transform 400ms;
+}
+.Container2 img:hover{
+    transform: scale(1.045);
+    cursor: pointer;
+}
+.FavApp{
+    padding-top: 2rem;
+}
+@media only screen and (max-width: 900px){
+.app3{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.FavApp{
+    padding-top: 0;
+}
+.Container2 img{
+    margin: 1rem;
+}
+}

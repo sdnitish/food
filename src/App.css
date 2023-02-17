@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 3.6rem;
+  margin-bottom: 3.6rem;
+}
+.para{
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+  margin-top: 1.5rem;
+}
+.para2{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  margin-top: 1.5rem;
+}
+.Container2{
+  width: 100%;
+  padding: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.BtnBox{
+  width: 100%;
+  display: flex;
+  padding-top: 2rem;
+}
+.btn1{
+  padding: 10px 25px 10px 25px;
+      background-color: #ffff;
+    font-size: 16px;
+    border-radius: 30px;
+    max-height: fit-content;
+    color: #000000;
+  outline: none;
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid #cccccc ;
+  cursor: pointer;
+  user-select: none;
+  margin: 0;
+  height: fit-content;
+  width: fit-content;
+  transition: all 500ms;
+}
+.btn1:hover{
+  box-shadow: rgb(68, 76, 188) 0px 0px 4px;
+}
+.btn2{
+  background-color: #ff7729;
+  padding: 10px 25px 10px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  width: fit-content;
+  height: fit-content;
+  color: #fff;
+outline: none;
+text-align: center;
+font-weight: 500;
+border: 1px none #1890ff ;
+cursor: pointer;
+margin: 0;
+user-select: none;
+transition: all 500ms;
+}
+.btn2:hover{
+  box-shadow: rgb(68, 76, 188) 0px 0px 4px;
+}
